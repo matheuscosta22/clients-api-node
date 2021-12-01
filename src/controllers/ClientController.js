@@ -66,7 +66,7 @@ module.exports = {
         }
         res.json(json)
     },
- 
+  
     delete: async (req, res) => {
         let json = { error: '', result: [] }
 
